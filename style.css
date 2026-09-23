@@ -1,4 +1,13 @@
 
+:root {
+    --bg: #F5EBD4;
+    --brown: #AA7D5A;
+    --light-blue: #72B8C8;
+    --dark-blue: #5A92C8;
+    --red: #C04630;
+    --orange: #F3B266;
+}
+
 *,
 *::before,
 *::after {
@@ -8,15 +17,19 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    background: url('./assets/bg4.png');
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: var(--bg);
 }
 
 .sticker-effect {
-  /* Stacking multiple white drop shadows creates a die-cut sticker border */
-  filter: 
-    drop-shadow(4px 4px 0px #fff)
-    drop-shadow(-4px -4px 0px #fff)
-    drop-shadow(4px -4px 0px #fff)
-    drop-shadow(-4px 4px 0px #fff)
-    drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2)); /* subtle shadow behind outline */
+    filter: 
+        drop-shadow(14px 14px 0px #fff)
+        drop-shadow(-14px -14px 0px #fff)
+        drop-shadow(14px -14px 0px #fff)
+        drop-shadow(-14px 14px 0px #fff)
+        drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    transform: scale(0.3);
+    /* background-color: red; */
 }

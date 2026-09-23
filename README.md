@@ -1,6 +1,7 @@
 # junk-journal
 junk stickers, paste in your journal
 
+- add favicon
 
 - junk themed stickers
 - empty canvas (dotted paper bg) to paste stickers on
@@ -12,3 +13,5 @@ junk stickers, paste in your journal
 
 
 @imgly/background-removal
+https://in.pinterest.com/pin/17451517303876818/
+<a href="https://www.vecteezy.com/png/47756886-dotted-graph-paper-dot-grid-paper">dotted-graph-paper-dot-grid-paper PNGs by Vecteezy</a>
