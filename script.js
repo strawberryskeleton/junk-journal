@@ -2,6 +2,7 @@
 const draggable_items = document.querySelectorAll('.draggable')
 
 console.log(draggable_items)
+let highestZIndex = 1
 
 
 draggable_items.forEach((item) => {
@@ -12,7 +13,10 @@ draggable_items.forEach((item) => {
 
     function mouseDown(e){
         e.preventDefault()
-        
+
+        highestZIndex++
+        item.style.zIndex = highestZIndex
+
         startX = e.clientX
         startY = e.clientY
 
@@ -33,6 +37,7 @@ draggable_items.forEach((item) => {
 
     function mouseUp(e){
         document.removeEventListener('mousemove', mouseMove)
+        document.removeEventListener('mouseup', mouseUp)
     }
 })
 
