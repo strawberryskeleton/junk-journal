@@ -2,6 +2,8 @@
 junk stickers, paste in your journal
 
 - add favicon
+- change scroll bar colors
+
 
 - junk themed stickers
 - empty canvas (dotted paper bg) to paste stickers on
