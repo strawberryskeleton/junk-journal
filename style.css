@@ -6,3 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: cornflowerblue;
+}
+
+.sticker-effect {
+  /* Stacking multiple white drop shadows creates a die-cut sticker border */
+  filter: 
+    drop-shadow(4px 4px 0px #fff)
+    drop-shadow(-4px -4px 0px #fff)
+    drop-shadow(4px -4px 0px #fff)
+    drop-shadow(-4px 4px 0px #fff)
+    drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2)); /* subtle shadow behind outline */
+}
