@@ -114,3 +114,35 @@ header ul a button {
     background-color: var(--red);
     color: var(--bg);
 }
+
+
+#home {
+    margin-top: 3rem;
+}
+
+#home .title {
+    width: 85%;
+    /* max-height: 50rem; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: cornflowerblue; */
+}
+
+#home .title .text-junk,
+#home .title .text-journal {
+    /* height: 50%; */
+    display: flex;
+    /* background-color: red; */
+    /* padding: 5rem; */
+}
+
+#home .title .text-junk img,
+#home .title .text-journal img {
+    width: 8rem;
+    height: 10rem;
+}
+
+#home .title .text-journal {
+    /* background-color: aqua; */
+}
